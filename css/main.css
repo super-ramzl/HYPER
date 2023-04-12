@@ -1,0 +1,488 @@
+@font-face {
+    font-family: 'KIMM_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TmonMonsori';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+
+body {
+    min-width: 1320px;
+}
+
+
+.body_scale {
+    width: 1320px;
+    margin: auto;
+}
+
+/*헤더*/
+
+header {
+    background-color: black;
+    width: 100%;
+  
+}
+
+.header_list a{
+    color: white;
+    font-family: 'TmonMonsori';
+    display: block;
+    font-size: 22.33px;
+}
+
+.header_list {
+    width: 851.1px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 126.1px;
+}
+
+.header_contents {
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 18.4px;
+}
+
+/*메인 배너*/
+.main_banner {
+    width: 100%;
+    height: 855px;
+    background-image: url(../images/banner_pure_bg.jpg);
+    background-size: cover;
+    
+}
+
+.main_banner {
+    position: relative;
+    line-height: 1.31;
+    
+}
+/*메인 배너 텍스트*/
+
+.blend_text {
+    font-family: 'TmonMonsori';
+    font-size: 174.97px;
+    color: #ff0000;
+    mix-blend-mode: difference;
+    position: absolute;
+    top:110px;
+    left: 50%;
+    margin-left: calc(-1320px /2);
+    width: 1320px;
+    
+}
+
+.nomal_text {
+    font-family: 'TmonMonsori';
+    font-size: 174.97px;
+    color: white;
+    position: absolute;
+    top:124px;
+    left: 50.5%;
+    margin-left: calc(-1320px /2);
+    width: 1320px;
+
+    
+}
+
+/*메인배너 캐릭터 아이콘*/
+
+.character_icon img:nth-child(1) {
+    position: absolute;
+    top:110px;
+    left: 50%;
+    margin-left: -180px;
+}
+
+.character_icon img:nth-child(2) {
+    position: absolute;
+    top:20px;
+    left: 50%;
+    margin-left: -900px;
+}
+
+/*메인배너 sns*/
+
+.main_sns {
+    position: absolute;
+    top:30px;
+    right:170px;
+}
+
+.main_sns li {
+    margin-bottom: 33px;
+}
+
+/*브랜드 배너*/
+
+.brand_banner {
+    padding: 0 51.5px;
+    position: relative;
+    margin-bottom: 191px;
+    margin-top: 134px;
+}
+
+.brand_banner>img {
+    position: absolute;
+
+}
+
+.brand_banner>img:nth-child(2) {
+    top: -40px;
+    left: 40px;
+}
+
+.brand_banner>img:nth-child(3) {
+    bottom: -45px;
+    right: 20px;
+}
+
+
+/*상품 배너*/
+
+.product_banner {
+    display: flex;
+    min-width: 1320px;
+}
+
+.product_img_box {
+    width: 33%;
+    height: 591px;
+    background-color: #333333;
+    background-image: url(../images/pattern.png);
+    background-repeat: no-repeat;
+    
+    
+}
+
+.product_text_box {
+    width: 56%;
+    height: 591px;
+    background-color: #cc0000;
+    font-family: 'KIMM_Bold';
+    font-size: 58px;
+    text-align: center;
+    position: relative;
+    
+}
+
+.product_text_box p:nth-child(1) {
+    border-bottom: 3px solid black;
+    padding-right: 84px;
+    width: 64%;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 5%;
+    left:1%;
+}
+
+.product_text_box img:nth-child(2) {
+    position: absolute;
+    top: 30.2%;
+    left: 50%;
+    margin-left: 140px;
+} 
+
+.product_text_box p:nth-child(3) {
+    position: absolute;
+    top:43%;
+    left: 30%;
+} 
+
+.product_text_box p:nth-child(4) {
+    position: absolute;
+    top:68%;
+    left: 38%;
+    font-size: 33.82px;
+} 
+
+.product_text_box p:nth-child(4) a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+} 
+
+.product_text_box p:nth-child(4) a img{
+    margin-right: 15px;
+} 
+
+/*베스트 셀러*/
+
+.best_product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+
+/*섹션 제목*/
+.section_title{
+    font-size: 37.55px;
+    display: flex;
+    align-items: center;
+    font-family: 'KIMM_Bold';
+    margin-top: 60px;
+}
+
+.best_seller .section_title {
+    margin-bottom: 48px;
+}
+
+.title_cross{
+    margin-right: 15px;
+
+}
+
+.best_product li {
+text-align: center;
+
+}
+
+.product_text p:nth-child(1){
+    font-size: 33.68px;
+    margin-bottom: 62px;
+    margin-top: 75px;
+}
+
+.product_text p:nth-child(2){
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/*캐릭터*/
+
+.character_info {
+    display: flex;
+}
+
+.character_info li {
+    width: 34%;
+    height: 562px;
+    overflow: hidden;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.character_info li:nth-child(1) {
+    background-color: #cc0000;
+    background-image: url(../images/po.png);
+    background-repeat: no-repeat;
+    background-position-y:center;
+}
+
+.character_info li:nth-child(2) {
+    background-color: #1c1c1c;
+    background-image: url(../images/ze.png);
+    background-repeat: no-repeat;
+} 
+
+.character_info li:nth-child(3) {
+    background-color: #cc0000;
+    background-image: url(../images/hu.png);
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+
+}
+
+.character_intro .section_title {
+    margin-bottom: 22px;
+}
+
+/*커뮤니티*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* 슬라이드배너 꾸미기 */
+.gallery-center {
+	width: 1320px;
+	height: 100%;
+	margin: 50px auto;
+	padding: 0 50px 40px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.gallery-center_inner {
+	width: 100%;
+	overflow: hidden;
+}
+.gallery-center .swiper-slide {
+	opacity: 0.5;
+	overflow: hidden;
+	transform: scale(0.7);
+	transition: transform 1s;
+	
+
+}
+.gallery-center .swiper-slide-active {
+	opacity: 1;
+	width: 100%;
+	transform: scale(1);
+}
+
+
+
+.gallery-center .swiper-slide img {
+	display: block;
+	width: 100%;
+	margin: auto;
+}
+
+/*이동버튼 영역 색상 바꾸기*/
+.gallery-center .swiper-button-prev,
+.gallery-center .swiper-button-next {
+	color: black;
+}
+
+/*이동버튼 영역 호버 시 색상 바꾸기*/
+.gallery-center .swiper-button-prev:hover,
+.gallery-center .swiper-button-next:hover {
+	color: #cc0000;
+}
+
+
+/*
+
+.gallery-center .swiper-button-prev,
+.gallery-center .swiper-button-next{
+	width: 50px;
+	height: 78px;
+}
+.gallery-center .swiper-button-prev:after,
+.gallery-center .swiper-button-next:after{
+	content: '';
+	display: block;
+	width: 50px;
+	height: 78px;
+}
+.gallery-center .swiper-button-prev:after{
+	background: url(../images/pre.png);
+}
+.gallery-center .swiper-button-next:after{
+	background: url(../images/next.png);
+}
+ */
+
+/* 블릿버튼 크기, 색상, 투명도 */
+.gallery-center .swiper-pagination-bullet {
+	background: black;
+	width: 10px;
+	height: 10px;
+	opacity: 0.5;
+}
+
+/* 블릿버튼 페이지 표시날 때 투명도 */
+.gallery-center .swiper-pagination-bullet-active {
+	opacity: 1;
+	background: #cc0000;
+}
+
+/* 블릿버튼 위치 */
+.gallery-center .swiper-horizontal>.swiper-pagination-bullets,
+.gallery-center .swiper-pagination-bullets.swiper-pagination-horizontal {
+	bottom: -20px;
+}
+
+
+.community {
+    margin-bottom: 209px;
+    margin-top: 80px;
+}
+
+
+/*footer*/
+
+.footer {
+
+    padding-bottom: 67px;
+}
+
+.footer_gide {
+    max-width: 1604px;
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+    padding-top: 46px;
+}
+
+/*푸터 왼쪽박스*/
+
+.footer_left_box {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+}
+.footer, .footer a {
+    background-color: black;
+    color: white;
+}
+
+
+.personal_info {
+    width: 440px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_left_box img{
+    margin-bottom: 30px;
+}
+
+/*푸터 오른쪽 박스*/
+
+.contact p {
+    font-family: 'KIMM_Bold';
+    font-size: 35.87px;
+}
+
+.contact {
+    text-align: right;
+    line-height: 1.2;
+}
+
+.contact li {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 28.85px;
+    margin-top: 31px;
+}
+
+.footer_right_box {
+    margin-top: 20px;
+}

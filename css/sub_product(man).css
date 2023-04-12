@@ -1,0 +1,311 @@
+@font-face {
+    font-family: 'KIMM_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TmonMonsori';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+@font-face {
+    font-family: 'KorailRoundGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KorailRoundGothicMedium.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+
+body {
+    min-width: 1320px;
+}
+
+
+.body_scale {
+    width: 1320px;
+    margin: auto;
+}
+
+/*헤더*/
+
+header {
+    background-color: black;
+    width: 100%;
+  
+}
+
+.header_list a{
+    color: white;
+    font-family: 'TmonMonsori';
+    display: block;
+    font-size: 22.33px;
+}
+
+.header_list {
+    width: 851.1px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 126.1px;
+}
+
+.header_contents {
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 18.4px;
+}
+
+
+/*footer*/
+
+.footer {
+
+    padding-bottom: 67px;
+}
+
+.footer_gide {
+    max-width: 1604px;
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+    padding-top: 46px;
+}
+
+/*푸터 왼쪽박스*/
+
+.footer_left_box {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+}
+.footer, .footer a {
+    background-color: black;
+    color: white;
+}
+
+
+.personal_info {
+    width: 440px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_left_box img{
+    margin-bottom: 30px;
+}
+
+/*푸터 오른쪽 박스*/
+
+.contact p {
+    font-family: 'KIMM_Bold';
+    font-size: 35.87px;
+}
+
+.contact {
+    text-align: right;
+    line-height: 1.2;
+}
+
+.contact li {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 28.85px;
+    margin-top: 31px;
+}
+
+.footer_right_box {
+    margin-top: 20px;
+}
+
+
+
+/*프로덕트 메인 배너*/
+
+.product_banner>div {
+    width: 100%;
+    height: 799px;
+    background-image: url(../images/product/product_banner_code.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+}
+
+.product_banner div img {
+    position: absolute;
+    top:40%;
+    left: 50%;
+    margin-left: -217px;
+}
+
+
+
+
+/* product 카테고리 */
+
+.product_category a{
+    font-family: 'KIMM_Bold';
+    color: white;
+    font-size: 23.3px;
+}
+
+.product_category {
+    background-color: black;
+    border-top: 16px solid #cc0000;
+    border-bottom: 16px solid #cc0000;
+    display: flex;
+    margin-top: 36px;
+    margin-bottom: 106px;
+}
+
+.product_category ul {
+    width: 518px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*카테고리 제목*/
+
+
+.category_name  {
+    text-align: center;
+    font-size: 52.56px;
+    font-family: 'KIMM_Bold';
+    margin-bottom: 206px;
+}
+
+/*상품 목록 */
+
+.product_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+
+.product_list div:nth-child(1){
+    width: 329px;
+    height: 412px;
+    display: block
+}
+
+.product_list li a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 322px;
+}
+
+.product_list a{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:16px;
+    font-weight: bolder;
+    color: black;
+    
+    
+}
+
+
+
+.list_text p:nth-child(3){
+    width: 367px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 8px 10px;
+}
+
+.list_text p:nth-child(1) {
+    font-size: 22.31px;
+    margin-bottom: 23px;
+    margin-top: 34px;
+}
+
+.list_text p:nth-child(2) {
+    margin-bottom: 48px;
+}
+
+.list_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*top 박스*/
+
+.top{
+    position:fixed; 
+    bottom:50px; 
+    right:50px; 
+    display:none;
+  }
+
+  .top img {
+    width: 100px;
+    height: 100px;
+  }
+
+
+
+  
+  /*상품 메뉴바 호버*/
+
+.product_menu li a:hover {
+    color:#cc0000
+  }
+
+  /*상품 호버*/
+
+
+.product_img{
+    width: 329px;
+    height: 412px;
+    overflow: hidden;
+  }
+
+
+.product_list li:hover img{
+    transform: scale(1.4, 1.4);
+}
+
+.product_list li img{
+    display: block;
+    transition: all 1s;
+}

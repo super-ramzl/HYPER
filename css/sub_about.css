@@ -1,0 +1,388 @@
+@font-face {
+    font-family: 'KIMM_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TmonMonsori';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+@font-face {
+    font-family: 'KorailRoundGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KorailRoundGothicMedium.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+
+body {
+    min-width: 1320px;
+}
+
+
+.body_scale {
+    width: 78%;
+    margin: auto;
+}
+
+.body_scale2 {
+    width:1320px;
+    margin: auto;
+}
+
+/*헤더*/
+
+header {
+    background-color: black;
+    width: 100%;
+  
+}
+
+.header_list a{
+    color: white;
+    font-family: 'TmonMonsori';
+    display: block;
+    font-size: 22.33px;
+}
+
+.header_list {
+    width: 851.1px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 126.1px;
+}
+
+.header_contents {
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 18.4px;
+}
+
+/*footer*/
+
+.footer {
+
+    padding-bottom: 67px;
+}
+
+.footer_gide {
+    max-width: 1604px;
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+    padding-top: 46px;
+}
+
+/*푸터 왼쪽박스*/
+
+.footer_left_box {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+}
+.footer, .footer a {
+    background-color: black;
+    color: white;
+}
+
+
+.personal_info {
+    width: 440px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_left_box img{
+    margin-bottom: 30px;
+}
+
+/*푸터 오른쪽 박스*/
+
+.contact p {
+    font-family: 'KIMM_Bold';
+    font-size: 35.87px;
+}
+
+.contact {
+    text-align: right;
+    line-height: 1.2;
+}
+
+.contact li {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 28.85px;
+    margin-top: 31px;
+}
+
+.footer_right_box {
+    margin-top: 20px;
+}
+
+
+/* 어바웃 배너 */
+
+.about_banner {
+    width: 100%;
+    height: 730px;
+    background-image: url(../images/about/about_banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 799px;
+  
+}
+
+
+
+
+/* 로고 설명 */
+
+
+
+.logo_info {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    height: 636px;
+
+}
+
+.thundersymbol {
+    width: 11%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thundersymbol img {
+    display: block;
+    margin: auto;
+    max-width: 169px;
+    width: 100%;
+    height: 351px;
+}
+
+
+
+.logo_intro {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+.logo_intro img {
+    display:block;
+    width: 403px;
+    height: 224px;
+}
+
+
+.logo_text {
+    width: 664px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.logo_intro img{
+    margin-left: 40px;
+}
+
+
+.logo_text p:nth-child(1) {
+    font-family: 'KIMM_Bold';
+    font-size: 43.39px;
+}
+
+.logo_text p:nth-child(2) {
+    width: 363px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 36px;
+    background-color: #ebebeb;
+    font-family: 'KIMM_Bold';
+    font-size: 23.96px;
+    margin-top: 34px;
+    margin-bottom: 58px;
+}
+
+.logo_text p:nth-child(3) {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 23.96px;
+    font-weight: bolder;
+    line-height: 2;
+}
+
+
+
+/*브랜드 키워드 */
+
+/*
+.brand_keyword {
+    width: 1920px;
+    height: 919px;
+    background-image: url(../images/brand/keyword_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    margin-bottom: 159px;
+    
+}
+*/
+
+.brand_keyword {
+    width: 100%;
+    height: 919px;
+    background-image: url(../images/brand/brand_keyword_set.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+
+}
+
+.brand_keyword p {
+    color: white;
+    font-family: 'KIMM_Bold';
+    font-size: 23.96px;
+    padding-top: 60px;
+}
+
+.keyword_list li{
+    color: white;
+  
+}
+
+
+.keyword_list li:nth-child(1) {
+    position: absolute;
+    left: 50%;
+    margin-left: -408px;
+    top: 23%;
+    
+}
+
+.keyword_list li>p:nth-child(1) {
+    font-family: 'KIMM_Bold';
+    font-size: 22.07px;
+    text-align: center;
+    padding-top: 80px;
+    display: flex;
+    justify-content: left;
+
+}
+
+
+.keyword_list p:nth-child(2) {
+    font-size: 16.52px;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-top: 30px;
+}
+
+
+/* brand keyword 2번째 */
+
+.keyword_list li:nth-child(2) {
+    position: absolute;
+    left: 49.5%;
+    top:45%;
+    
+}
+
+
+/* brand keyword 3번째 */
+
+.keyword_list li:nth-child(3) {
+    position: absolute;
+    left: 50%;
+    margin-left: 384px;
+    top: 27%;
+    
+}
+
+.keyword_list li:nth-child(3) p:nth-child(2) {
+    padding-left: 5px;
+    
+}
+
+
+/*브랜드 비전*/
+
+.brand_vision {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 158px;
+    margin-bottom: 232px;
+    
+}
+
+.brand_vision>div {
+    width: 929px;
+    height: 1222px;
+    background-image: url(../images/brand/brand_vision.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 87px;
+}
+
+.brand_vision {
+    font-family: 'KorailRoundGothicMedium';
+    font-size: 24.03px;
+    line-height: 38.55px;
+
+}
+
+.brand_vision p:nth-child(2) {
+    margin-bottom: 48px;
+}
+
+.brand_vision p:nth-child(3) {
+    margin-bottom: 64px;
+}
+
+.brand_vision img:nth-child(4) {
+    margin-bottom: 119px;
+}

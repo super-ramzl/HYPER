@@ -1,0 +1,468 @@
+@font-face {
+    font-family: 'KIMM_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TmonMonsori';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+
+body {
+    min-width: 1320px;
+}
+
+
+.body_scale {
+    width: 1320px;
+    margin: auto;
+}
+
+/*헤더*/
+
+header {
+    background-color: black;
+    width: 100%;
+  
+}
+
+.header_list a{
+    color: white;
+    font-family: 'TmonMonsori';
+    display: block;
+    font-size: 22.33px;
+}
+
+.header_list {
+    width: 851.1px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 126.1px;
+}
+
+.header_contents {
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 18.4px;
+}
+
+/*footer*/
+
+.footer {
+
+    padding-bottom: 67px;
+}
+
+.footer_gide {
+    max-width: 1604px;
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+    padding-top: 46px;
+}
+
+/*푸터 왼쪽박스*/
+
+.footer_left_box {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+}
+.footer, .footer a {
+    background-color: black;
+    color: white;
+}
+
+
+.personal_info {
+    width: 440px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_left_box img{
+    margin-bottom: 30px;
+}
+
+/*푸터 오른쪽 박스*/
+
+.contact p {
+    font-family: 'KIMM_Bold';
+    font-size: 35.87px;
+}
+
+.contact {
+    text-align: right;
+    line-height: 1.2;
+}
+
+.contact li {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 28.85px;
+    margin-top: 31px;
+}
+
+.footer_right_box {
+    margin-top: 20px;
+}
+
+
+/* 캐릭터 배너 */
+
+.character_banner {
+    width: 100%;
+    height: 865px;
+    background-image: url(../images/character/characer_banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 799px;
+}
+
+.text_box img:nth-child(2){
+    margin-top: 42px;
+
+}
+
+
+/* 캐릭터 설명 */
+
+
+.character {
+    margin-top: 206px;
+    margin-bottom: -56px;
+    overflow: hidden;
+}
+
+.character_info  {
+    display: flex;
+
+   
+    
+}
+
+.character_list li {
+    overflow: hidden;
+    width: 100%;
+    height: 915px;
+}
+
+
+/*첫번째 캐릭터*/ 
+
+
+.first_square {
+    width: 1320px;
+    height: 376px;
+    margin: 117px auto 0;
+    text-align: center;
+   position: relative;
+}
+.first_square .body_scale {
+    width: 1694px;
+    background-color: #790000;
+    border-radius: 50px 0 0 50px;
+    padding-bottom: 56px;
+    position: absolute;
+    right: -408px;
+}
+
+.first_square p, .second_square p{
+
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 28.5px;
+}
+
+.first_square p:nth-child(1), .second_square p:nth-child(1){
+    padding-top: 57px;
+    font-family: 'KIMM_Bold';
+    font-size: 51.89px;
+    margin-bottom: 55px;
+   
+}
+
+.second_square p:nth-child(1) {
+    margin-bottom: 35px;
+}
+
+
+
+
+.character_info_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 705px;
+}
+
+.character_img1 img:nth-child(1){
+    position: absolute;
+    right: 26%;
+    top:-30%;
+    z-index: 10;
+}
+
+.character_img1 img:nth-child(2) {
+    position: absolute;
+    right: 18%;
+    top:-20%;
+}
+
+.character_img1 img:nth-child(3) {
+    position: absolute;
+    top:-17%;
+    left:-5%;
+}
+
+/*두번째 캐릭터 */
+
+
+.second_square {
+    width: 1320px;
+    height: 376px;
+    margin: 227px auto 0;
+    text-align: center;
+   position: relative;
+}
+
+.second_square>.body_scale {
+     width: 1694px;
+    background-color: #77d6a7;
+    border-radius: 0 50px 50px 0;
+    padding-bottom: 46px;
+    position: absolute;
+    left: -295px;
+}
+
+.second_square p:nth-child(1) {
+    padding-top: 42px;
+}
+
+.character_img2 img:nth-child(1){
+    position: absolute;
+    left: 50%;
+    top: -50%;
+    margin-left: -532px;
+    z-index: 10;
+}
+
+.character_img2 img:nth-child(2) {
+    position: absolute;
+    left: 50%;
+    top: -10%;
+    margin-left: -599px;
+}
+
+.character_img2 img:nth-child(3) {
+    position: absolute;
+    top:-20%;
+    right: -5%;
+}
+
+.character_info_container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 830px;
+}
+
+
+
+/*세번쩨 캐릭터*/ 
+
+
+.character_list li:nth-child(3){
+    height: 1084px;
+}
+
+.third_square {
+    width: 1320px;
+    height: 376px;
+    position: relative;
+    margin-top: 246px;
+    text-align: center;
+    color: black;
+   
+}
+
+.third_square>.body_scale {
+    width: 1694px;
+    background-color: #eeee46;
+    border-radius: 50px 0 0 50px;
+   padding-bottom: 56px;
+   position: absolute;
+   left: 255px;
+}
+
+
+.third_square p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 28.5px;
+}
+
+.third_square p:nth-child(1){
+    padding-top: 57px;
+    font-family: 'KIMM_Bold';
+    font-size: 51.89px;
+    margin-bottom: 55px;
+   
+}
+
+.third_square p:nth-child(1) {
+    margin-bottom: 35px;
+}
+
+
+
+
+.character_info_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 790px;
+    padding-left: 100px;
+}
+
+.character_img3 img:nth-child(1){
+    position: absolute;
+    right: 25%;
+    top:-30%;
+    z-index: 10;
+}
+
+.character_img3 img:nth-child(2) {
+    position: absolute;
+    right: 14%;
+    top:-23%;
+}
+
+.character_img3 img:nth-child(3) {
+    position: absolute;
+    top:-30%;
+    left:50%;
+    margin-left: -900px;
+}
+
+/*아래 배경 백그라운드*/
+
+
+.bottom_bg {
+    height: 1053px;
+    background-color: white;
+    background-image: url(../images/character/character_under_bg.png);
+    background-repeat: no-repeat;
+    background-position-y: -681%;
+    background-position-x: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.bottom_bg img:nth-child(1) {
+    position: absolute;
+    top:83px;
+    left: 50%;
+    margin-left: -602px;
+}
+
+
+
+.bottom_bg img:nth-child(2) {
+    position: absolute;
+    top:80px;
+    left: 50%;
+    margin-left: 440px;
+}
+
+
+
+/*캐릭터 ufo 흔들 애니메이션*/
+
+.bottom_bg img:nth-child(1) {
+    animation-name: shake;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% {
+      transform: rotate(0deg)
+    }
+    25% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(4deg);
+    }
+    75% {
+      transform: rotate(-8deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  } 
+  
+
+  .bottom_bg img:nth-child(2) {
+    animation-name: shake2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake2 {
+    0% {
+      transform: rotate(0deg)
+    }
+    25% {
+      transform: rotate(8deg);
+    }
+    50% {
+      transform: rotate(-7deg);
+    }
+    
+    75% {
+      transform: rotate(10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  } 
+  

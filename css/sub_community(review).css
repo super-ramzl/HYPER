@@ -1,0 +1,423 @@
+@font-face {
+    font-family: 'KIMM_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TmonMonsori';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?Noto+Sans+KR:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+
+body {
+    min-width: 1320px;
+}
+
+
+.body_scale {
+    width: 1320px;
+    margin: auto;
+}
+
+/*헤더*/
+
+header {
+    background-color: black;
+    width: 100%;
+  
+}
+
+.header_list a{
+    color: white;
+    font-family: 'TmonMonsori';
+    display: block;
+    font-size: 22.33px;
+}
+
+.header_list {
+    width: 851.1px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 126.1px;
+}
+
+.header_contents {
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 18.4px;
+}
+
+
+/*footer*/
+
+.footer {
+    padding-bottom: 67px;
+}
+
+.footer_gide {
+    max-width: 1604px;
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+    padding-top: 46px;
+}
+
+/*푸터 왼쪽박스*/
+
+.footer_left_box {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+}
+.footer, .footer a {
+    background-color: black;
+    color: white;
+}
+
+
+.personal_info {
+    width: 440px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_left_box img{
+    margin-bottom: 30px;
+}
+
+/*푸터 오른쪽 박스*/
+
+.contact p {
+    font-family: 'KIMM_Bold';
+    font-size: 35.87px;
+}
+
+.contact {
+    text-align: right;
+    line-height: 1.2;
+}
+
+.contact li {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 28.85px;
+    margin-top: 31px;
+}
+
+.footer_right_box {
+    margin-top: 20px;
+}
+
+
+
+
+/*
+
+sub1 :: Community 
+
+*/
+
+/* 커뮤니티 배너 */
+
+.community_banner {
+    width: 100%;
+    height: 799px;
+    background-image: url(../images/com_banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.body_scale .text_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 799px;
+}
+
+
+
+
+
+
+/* 커뮤니티 메뉴 */
+
+.community_menu {
+    display: flex;
+    justify-content: center;
+    font-family: 'KIMM_Bold';
+    font-size: 28.1px;
+    margin: 124px 0 167px 0;
+
+}
+
+.community_menu ul {
+    display: flex;
+    width: 793px;
+    justify-content: space-between;
+}
+
+.community_menu li {
+    width: 217px;
+    height: 68px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.community_menu ul a {
+    display: block;
+    color: black;
+    width: 217px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*커뮤니티 호버*/
+
+.community_menu a:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+/*
+
+
+리뷰 안내
+
+
+*/
+
+.info_list {
+    background-color: #111111;
+    width: 1200px;
+    height: 205px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 31px;
+    margin: 0 auto;
+}
+
+.info_list li {
+
+    display: flex;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    justify-content: space-evenly;
+    align-items: center;
+ 
+    
+
+}
+
+.icon {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    background-color: #464646;
+    position: relative;
+    
+}
+
+.icon img {
+    position: absolute;
+    left: 23px;
+    top: 25px;
+}
+
+.info_list li:nth-child(3) .icon img {
+    position: absolute;
+    left: 16px;
+    top: 19px;
+}
+
+.info_list li:nth-child(5) .icon img {
+    position: absolute;
+    left: 17px;
+    top: 21px;
+}
+
+
+
+.info_text {
+    width: 150px;
+    height: 130px;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+.info_text p:nth-child(2) {
+    width: 209px;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.info_text p:nth-child(1) {
+    font-size: 20px;
+    margin-bottom: 17px;
+}
+
+.info_text p:nth-child(3) {
+    width: 209px;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+
+.info_list li:nth-child(5) .info_text {
+    padding-top: 26px;
+}
+
+
+
+/* 리뷰란 */
+
+
+
+.review {
+    margin-top: 158px;
+    margin-bottom: 150px;
+    border-bottom: 1px solid #acacac;
+}
+.review li {
+    padding-top: 28px;
+    width: 1242px;
+    border-top : 1px solid black;
+    padding-bottom: 37px;
+    padding-left: 25px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.review_text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review_left {
+    margin-bottom: 37px;
+}
+
+.review_title{
+    margin-bottom: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.review_contents {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    color: #4c4c4c;
+}
+
+
+.review_img img{
+    display: block;
+    width: 392px;
+    height: 279px;
+}
+
+
+/* 커뮤니티 메뉴바 */
+
+.community_menu li:nth-child(2), .community_menu li:nth-child(2) a {
+    background-color: black;
+    color: white;
+}
+
+
+
+/* 도움 바 */
+
+.helper {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16.16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    right: 40px;
+
+}
+
+.helper>p {
+    width: 164px;
+    height: 54.99px;
+    border: 3px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 16.16px;
+   
+}
+
+
+.helper li {
+    background-color: black;
+    width: 76px;
+    height: 98px;
+    padding:10px;
+    margin: 10px 0;
+}
+
+.helper li a {
+    display: block;
+ 
+    height: 98px;
+    color: white;
+    font-size: 16.51px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.helper li a img{
+   margin-bottom: 19px;
+}
+
+.main_contetns {
+    position: relative;
+}
+
+
